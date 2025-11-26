@@ -1,3 +1,4 @@
+/* Estilos básicos para la página de Gustavo Cerati */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -6,11 +7,42 @@ body {
   color: #222;
 }
 
-header, footer {
-  background: #222;
+.header-bocanada {
+    width: 100%;
+    padding: 30px 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: linear-gradient(
+        135deg,
+        #003049 0%,
+        #007F8C 35%,
+        #4CC9C0 70%,
+        #A8DADC 100%
+    );
+
+    /* Opcional: efecto suave tipo bocanada */
+    box-shadow: 0 0 40px rgba(0, 50, 70, 0.6);
+}
+.header-bocanada {
+  width: 100%;
+  padding: 20px 40px;
   color: white;
-  padding: 20px;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-bocanada nav a:hover {
+    text-decoration: underline;
+}
+.header-cerati {
+  width: 140px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+   margin-left: 30px;  
+  margin-right: 20px;  
 }
 
 main {
